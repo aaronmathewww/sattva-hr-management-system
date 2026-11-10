@@ -1,0 +1,43 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / frontend builds
+node_modules/
+dist/
+coverage/
+
+# Local databases and uploaded/private data
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+storage/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.old
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
